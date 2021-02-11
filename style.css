@@ -1,0 +1,32 @@
+html {
+    text-align: center;
+}
+
+#avengers {
+    height: 450px;
+    border-radius: 50%;
+}
+
+.img {
+    height: 250px;
+}
+
+.name {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#sliding-gallery {
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+}
+
+#grid-gallery {
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+}
+
+#avengers:hover {
+    height: 445px;
+}

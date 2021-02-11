@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Combo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <a href="https://en.wikipedia.org/wiki/The_Avengers_(2012_film)#:~:text=Marvel's%20The%20Avengers%20(classified%20under,team%20of%20the%20same%20name." target="_blank"> <img id="avengers" src="Poster.jpg"></a>
+
+    <br>
+    <br>
+    <br>
+    <p id="grid-gallery">Grid Gallery</p>
+    <br>
+    <span>
+        <img class="img" src="thor.jpg">
+        <img class="img" src="black%20panther.jpg">
+        <img class="img" src="black%20widow.jpg">
+        <img class="img" src="space%20girl.jpg">
+    </span>
+    <span>
+        <img class="img" src="hulk.jpg">
+        <img class="img" src="Caption.jpg">
+        <img class="img" src="Iron%20Man.jpg">
+        <img class="img" src="spider%20man.jpg">
+        <img class="img" src="dr.%20strange.jpg">
+    </span>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p id="sliding-gallery">Sliding Gallery</p>
+    <div id="mycarousel" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="item active">
+                <center>
+                    <img src="Iron%20Man.jpg" class="img">
+                    <div class="carousel-content">
+                        <p class="name">Iron Man</p>
+                    </div>
+                </center>
+            </div>
+
+
+            <div class="item">
+                <center>
+                    <img src="spider%20man.jpg" class="img">
+                    <div class="carousel-content">
+                        <p class="name">Spider-Man</p>
+                    </div>
+                </center>
+            </div>
+
+
+            <div class="item">
+                <center>
+                    <img src="space%20girl.jpg" class="img">
+                    <div class="carousel-content">
+                        <p class="name">Space Girl</p>
+                    </div>
+                </center>
+            </div>
+
+
+            <div class="item">
+                <center>
+                    <img src="hulk.jpg" class="img">
+                    <div class="carousel-content">
+                        <p class="name">Hulk</p>
+                    </div>
+                </center>
+            </div>
+
+
+            <div class="item">
+                <center>
+                    <img src="thor.jpg" class="img">
+                    <div class="carousel-content">
+                        <p class="name">Thor</p>
+                    </div>
+                </center>
+            </div>
+
+
+            <div class="item">
+                <center>
+                    <img src="dr.%20strange.jpg" class="img">
+                    <div class="carousel-content">
+                        <p class="name">Doctor Strange</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img src="Caption.jpg" class="img">
+                    <div class="carousel-content">
+                        <p class="name">Caption America</p>
+                    </div>
+                </center>
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+
+        <a class="right carousel-control" href="#mycarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</body></html>
